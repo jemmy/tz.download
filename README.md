@@ -11,6 +11,10 @@ Set DB_DATABASE, DB_USERNAME, DB_PASSWORD and QUEUE_CONNECTION=database.
 php artisan migrate
 ```
   
+```bash  
+php artisan queue:work
+```     
+  
 Console commands
 
 Download file from url 
